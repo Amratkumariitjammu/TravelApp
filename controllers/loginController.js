@@ -15,6 +15,7 @@ const loginHandler = async (req, res) => {
         const accessToken = jwt.sign( {username: user.username}, process.env.ACCESS_TOKEN )
 
         res.json({...rest, accessToken});
+        console.log('done');
 
     }catch(err){
         console.log(err)

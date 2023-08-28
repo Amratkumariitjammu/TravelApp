@@ -12,3 +12,6 @@ router.route("/login")
     .post(loginHandler)
 
 module.exports = router;
+// const router = require('express').Router()
+
+// router.post('/register', singupHandler.singupHandler);

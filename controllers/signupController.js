@@ -3,6 +3,7 @@ const CryptoJS = require('crypto-js');
 const User = require("../model/user.model");
 
 const singupHandler = async (req, res) => {
+    console.log('hellow');
     try{
         const newUser = new User({
             username: req.body.username,

@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/prakashsakari/travel_app_GFG_strudent_version#readme",
   "devDependencies": {
-    "nodemon": "^2.0.12"
+    "nodemon": "^2.0.22"
   },
   "dependencies": {
     "cors": "^2.8.5",
